@@ -3,7 +3,7 @@ public class Application
     Product[] products = {
             new Product(1, "Tea",6.99, 40),
             new Product(2, "Coffee",7.99, 40),
-            new Product(3, "Bagel - Pack of 10",10.99, 5),
+            new Product(3, "Bagel",10.99, 5),
             new Product(4, "Light Cup",79.99, 200),
             new Product(5, "Flour",109.99, 40),
             new Product(6, "Ice Cream",100, 45),

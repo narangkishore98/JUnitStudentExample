@@ -31,11 +31,11 @@ public class Product {
     {
         if(getPrice()>=100)
         {
-           return getPrice() - getPrice() * 0.5 ;
+           return getPrice() - getPrice() * 0.05 ;
         }
         if(getPrice()>=40 && getPrice()<100)
         {
-            return getPrice() - getPrice() * 0.1;
+            return getPrice() - getPrice() * 0.01;
         }
         return getPrice();
     }
